@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  calculator:
+    image: task5.1p_image
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/task5.1p
